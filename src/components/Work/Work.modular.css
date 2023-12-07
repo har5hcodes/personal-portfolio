@@ -1,0 +1,16 @@
+.work {
+  position: absolute;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  width: 45%;
+  text-align: right;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.workItem {
+  width: 400px;
+  height: 200px;
+  background-color: whitesmoke;
+}

@@ -1,0 +1,9 @@
+.about {
+  position: absolute;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  width: 45%;
+  text-align: right;
+  font-size: 1.5rem;
+  line-height: 1.25;
+}

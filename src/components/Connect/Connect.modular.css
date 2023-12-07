@@ -1,0 +1,44 @@
+.connect {
+  position: absolute;
+  padding-top: 10rem;
+  padding-left: 2rem;
+  width: 45%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  color: white;
+}
+
+.connect input {
+  width: 100%;
+  height: 4rem;
+  color: white;
+  border: none;
+  background-color: transparent;
+  font-size: 2rem;
+  border-bottom: solid 10px white;
+  padding-left: 1rem;
+}
+
+.connect button {
+  width: 100%;
+  height: 4rem;
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 2rem;
+  cursor: pointer;
+  font-weight: 800;
+  text-align: center;
+}
+
+.connect button:hover {
+  background-color: black;
+  color: white;
+}
+
+.connect input:focus {
+  outline: none;
+  border-bottom: solid 10px black;
+}
